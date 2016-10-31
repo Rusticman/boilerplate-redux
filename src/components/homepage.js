@@ -6,10 +6,7 @@ const Homepage = () =>{
 
   return(
 
-    <div >
-
-
-              I'm a homepage    </div>
+    <div >   I'm a homepage    </div>
   )
 
 

@@ -1,9 +1,8 @@
 {
-  "name": "redux-simple-starter",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "boilerplate redux package",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -29,9 +28,11 @@
     "axios": "^0.15.1",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
-    "react": "^0.14.3",
+    "react": "^15.0.0",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
+    "redux-form": "^6.1.1",
+    "immutable": "^3.8.1",
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
     "redux-thunk": "^2.1.0"

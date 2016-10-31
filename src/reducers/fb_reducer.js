@@ -1,6 +1,6 @@
 import {
 USER
-} from '../actions/type';
+} from '../actions/types';
 
 const INITIAL_STATE = {
                       user:'no user yet'

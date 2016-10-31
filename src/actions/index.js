@@ -2,7 +2,7 @@ import axios from 'axios';
 import { browserHistory } from 'react-router';
 import {
     USER
-} from './type';
+} from './types';
 
 const ROOT_URL = 'http://localhost:3000';
 
